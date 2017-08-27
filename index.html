@@ -3,41 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pruthvi Raj | Resume</title>
+    <title>Pruthvi Raj Muthyam</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
     <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
+
     <!-- // Intro -->
-    <header>
+    <header id ="about">
+      <a href = "#" class="resume-button">My Resume</a>
+      <nav class= "hor-nav">
+        <a href="#about">About</a>
+        <a href= "#experience">Experience</a>
+        <a href= "#education">Education</a>
+        <a href = "#skills">Technical Skills</a>
+        <a href= "#projects">Projects</a>
+        <a href = "#contact">Contact</a>
+      </nav>
         <div class = "content-wrap">
+
           <!---<img class = "profile-img" src="image.jpg" alt="Pruthvi Raj" height = "100" width = "100"> -->
         <h1>Pruthvi Raj Muthyam</h1>
-        <h2>AWS Certified Developer Associate | Master's in CS</h2>
+        <h2>AWS Certified Developer Associate | CS Graduate Student</h2>
+        <h3>Actively seeking Software Engineer Internship oppurtunity for Spring/Summer 2018 </h3>
         <p>Graduated from <a href = "http://www.nitw.ac.in/" target = "_blank">NIT Warangal</a>, worked as Assistant Manager (Systems) in <a href = "https://www.coalindia.in/" target = "_blank">Coal India Limited </a>and currently pursuing Master's in CS at <a href = "https://uta.edu" target = "_blank" >The University of Texas at Arlington</a> with a career objective of gaining employment with a company that offers me a consistently positive atmosphere to learn new technologies, keep up with the cutting edge of technologies, implement them for the betterment of the business and build a long-term career with opportunities for career growth.</p>
         </div>
+
     </header>
-    
-    <main> 
+
+    <main>
         <!-- // Work Experience -->
-        <section class = "workexp">
+        <section id = "experience" class = "workexp">
             <div class = "content-wrap">
             <h2>Work Experience</h2>
 
             <!-- Job Details: copy this whole block to add more jobs -->
-          <div class = "col-narrow"> 
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
+          <div class = "col-narrow">
+            <h3>Assistant Manager </h3>
+            <a href = "https://www.coalindia.in/" target = "_blank">COAL INDIA LIMITED</a>
+            <p>August 2015 - December 2016</p>
                 </div>
-            
+
             <!-- Add as many paragraphs as you need. -->
-                <div class = "col-wide">
-            <p>Job summary.</p>
-            
+                <div class = "col-wide job-description">
+            <p>•	Administering range of activities including Payroll, Oracle 11g DB Administration, Hardware & Software installation, upgrades and appropriate procurement, Network configuration and management especially intranet for Coalnet (ERP) access, Personnel equipment requirements. </p>
+<p>•	Budget management including AMC, ensuring smooth running of all ICT systems including anti-virus software, print services and Email provision, User account management for Coalnet access, Managing secure network access for remote users and E-surveillance monitoring (VTS and OITDS).
+</p>
+
             <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
+            <!-- <p>Optional list:</p>
             <ul>
                 <li>Created...</li>
                 <li>Lead...</li>
@@ -45,29 +60,60 @@
             </ul>
             <!-- end of Job Details block. -->
                 </div>
+
+
+                <div class = "col-narrow">
+                  <h3>Web Developer Intern </h3>
+                  <a href = "http://snaptics.in" target = "_blank">SNAPTICS BUSINESS SOLUTIONS</a>
+                  <p>May 2014 - July 2014</p>
+                      </div>
+
+                  <!-- Add as many paragraphs as you need. -->
+                      <div class = "col-wide job-description">
+                  <p> Devloped a web application - cloud based educational management system on Eclipse IDE based on hibernate, MVC, JSP and servlet technologies</p>
+
+                  <!-- This list can be deleted if you don't want to use it. -->
+                  <!-- <p>Optional list:</p>
+                  <ul>
+                      <li>Created...</li>
+                      <li>Lead...</li>
+                      <li>Responsible for</li>
+                  </ul>
+                  <!-- end of Job Details block. -->
+                      </div>
         </div>
+
+
+
+
         </section>
 
 
         <!-- // Education -->
-        <section class = "edu">
+        <section id= "education" class = "edu">
             <div class = "content-wrap">
             <h2>Education</h2>
+            <div class = "education">
 
             <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
-            
+            <img class = "profile-img" src="utalogo.jpg" alt="The University of Texas at Arlington" height = "100" width = "100" >
+            <h3>The University of Texas at Arlington - May 2018</h3>
+            <p>Master of Science in Computer Science | GPA: 4.0</p>
+            <img class = "profile-img" src="NIT-Warangal-Recruitment.jpg" alt="National Institute of technology, Warangal" height = "100" width = "100" >
+            <h3>National Institute of Technology, Warangal - May 2015</h3>
+            <p>Bachelor of Technology in Computer Science and Engineering</p>
+          </div>
+
             <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
+            <!-- <p>Summary.</p> -->
             <!-- End of school details. -->
             </div>
         </section>
-        
-        <section class = "technical_skills">
+
+        <section id = "skills"class = "technical_skills">
             <div class = "content-wrap">
             <h2>Technical Skills</h2>
-               
+
             <div class = "ts">
             <h3>Languages </h3>
             <ul>
@@ -90,25 +136,26 @@
                        <li>Amazon DyanoDB</li>
                    </ul>
                </div>
-                
-          
-            </div>    
+
+
+            </div>
         </section>
-        <section class = "projects">
+        <section id = "projects" class = "projects">
             <div class = "content-wrap">
             <h2>Projects</h2>
             <h3>Personal Health Management System</h3>
-            <p>Android Application for storing and tracking users health information.</p>
+            <p>Developed an android application for storing and tracking users health information using Agile/Scrum methodologies</p>
             </div>
         </section>
-        
+
     </main>
-    
+
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id = "contact">
         <div class = "content-wrap">
         <h2>Let's Keep in Touch!</h2>
         <p style="font-size:20px"><i class="fa fa-envelope"></i>pruthviraaz41@gmail.com</p>
+        <p class = "phone-number"> &#9742; 682-407-5122</p>
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class = "contact-info">
             <!---<a href="mailto:pruthviraaz41@gmail.com" target = "_blank">pruthviraaz41@gmail.com</a>-->
