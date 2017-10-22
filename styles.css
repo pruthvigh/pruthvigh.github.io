@@ -85,9 +85,10 @@ header h1{
 }
 
 header p {
+	text-align:justify;
     font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
 
 }
 
@@ -112,20 +113,24 @@ header .content-wrap a:hover{
 footer {
     text-align:center;
 }
+footer h2,p{
+     margin-bottom:5px;
+	 margin-top:0;
+}
 .contact-info{
-
-    padding: 10px;
+    /*padding: 10px;*/
     display: inline-block;
+	margin-bottom:10px;
+	margin-top:10px;
 }
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 70px;
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px, 2px;
     border-radius: 50%;
-
 }
 .fa:hover {
     opacity: 0.7;
@@ -187,7 +192,9 @@ nav a:hover{
     /*background: #EDF2F4;*/
     overflow: auto;
 }
-
+.workexp h2{
+	margin-bottom:15px;
+}
 .job-description {
   margin-bottom: 25px;
 }
@@ -206,10 +213,13 @@ h3 ~ p{
 .workexp a:hover{
   text-decoration: underline;
 }
+.intern{
+   margin-bottom:10px;	
+}
 /*Education
 ---------------------------*/
 .edu {
-    /*background: #8D99AE;*/
+    background: #E6F2EF;
     clear:both;
 }
 .edu {
@@ -224,7 +234,9 @@ h3 ~ p{
 .education{
   text-align: center;
 }
-
+.edu h2{
+	margin-bottom:0;
+}
 /* Technical Skills
 -------------------------------*/
 .technical_skills{
@@ -245,5 +257,5 @@ h3 ~ p{
 ----------------------------------*/
 .projects{
     clear:both;
-    /*background: #FFF8DC;*/
+    background: #E6F2EF;
 }
