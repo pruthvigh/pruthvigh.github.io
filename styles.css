@@ -132,6 +132,7 @@ footer h2,p{
     margin: 5px, 2px;
     border-radius: 50%;
 }
+
 .fa:hover {
     opacity: 0.7;
 }
@@ -214,12 +215,12 @@ h3 ~ p{
   text-decoration: underline;
 }
 .intern{
-   margin-bottom:10px;	
+   margin-bottom:10px;
 }
 /*Education
 ---------------------------*/
 .edu {
-    background: #E6F2EF;
+    /*background: #E6F2EF;*/
     clear:both;
 }
 .edu {
@@ -243,19 +244,40 @@ h3 ~ p{
     /*background: #D2AB99;*/
     overflow: hidden;
 }
+.technical_skills h2{
+  margin-bottom: 15px;
+}
+.langs{
+  /*display: block;*/
 
+  overflow: hidden;
+}
 .ts {
-
    float:left;
+   text-align: center;
     width:33%;
 }
-.ts h3,ul {
+.ts h3 {
     margin-top: 0;
+}
+.tools{
+  clear:both;
+    margin-top: 10px;
+  text-align: center;
+}
+.ptitle{
+  font-weight: bold;
+}
+em{
+  font-size: bold;
 }
 
 /*Projects
 ----------------------------------*/
 .projects{
     clear:both;
-    background: #E6F2EF;
+    /*background: #E6F2EF;*/
+}
+.projects h2{
+  margin-bottom: 20px;
 }
