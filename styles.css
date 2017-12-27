@@ -25,6 +25,9 @@ h3{
      margin:0;
     font-size: 20px;
 }
+p{
+  font-size: 16px;
+}
 a{
     color:#DA4167;
 }
@@ -36,18 +39,7 @@ a:hover{
     margin: 0 auto;
     padding: 45px 30px;
 }
-.col-narrow {
-    width: 30%;
-    float: left;
-    /*min-height: 175px;*/
 
-}
-.col-wide {
-    width: 70%;
-    float: left;
-    /*min-height: 175px;*/
-
-}
 .resume-button {
   text-decoration: none;
   background: #A52A2A;
@@ -74,28 +66,22 @@ header h1, header h2, header h3{
   color: #EDF2F4;
     margin:0;
 }
-
 header {
     text-align: center;
     position:relative;
 }
-
 header h1{
     margin-top: 50px;
 }
-
 header p {
 	text-align:justify;
     font-size: 18px;
     line-height: 1.5;
     /*margin-bottom: 0;*/
-
 }
-
 header h1, header h2 {
     text-align: center;
 }
-
 header h2{
   font-size: 40px;
 }
@@ -148,8 +134,8 @@ footer h2,p{
     background: #444;
     color: white;
 }
-.fa-google-plus {
-    background: #dd4b39;
+.fa-twitter {
+    background: #32CCFE;
     color: white;
 }
 .fa-envelope {
@@ -157,7 +143,7 @@ footer h2,p{
     color:white;
 }
 footer h2{
-  font-family: 'Caveat', cursive;
+  /* font-family: cursive; */
   font-weight: 400;
   margin-bottom: 0;
   color: #EDF2F4;
@@ -171,26 +157,43 @@ footer h2{
 --------------------*/
 nav {
   text-align: center;
-  position: fixed;
-  top: 0;
+  /* position: fixed;
+  top: 0; */
   background-color: #2B2D42;
   width:100%;
 }
+/* nav li{
+  text-align: center;
+} */
 nav a {
   display: inline-block;
   padding: 15px 20px;
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-transform: uppercase;
+  font-weight: bold;
+  font-color:#CD5C5C;
+}
+.navbar-header{
   text-transform: uppercase;
   font-weight: bold;
 }
 nav a:hover{
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
 }
-
+/* .navbar-tooggle .icon-bar{
+  color:white;
+} */
+.navbar-default{
+  /* background-color: #AEB6BF; */
+}
+.navbar-brand{
+  margin-left: 50px;
+  /* margin-right: 250px; */
+}
 /* Work Experience
 -------------------------*/
 .workexp {
-    /*background: #EDF2F4;*/
+    background: #F2F4F4;
     overflow: auto;
 }
 .workexp h2{
@@ -241,7 +244,7 @@ h3 ~ p{
 /* Technical Skills
 -------------------------------*/
 .technical_skills{
-    /*background: #D2AB99;*/
+    background: #F2F4F4;
     overflow: hidden;
 }
 .technical_skills h2{

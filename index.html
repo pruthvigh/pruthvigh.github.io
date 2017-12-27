@@ -4,50 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruthvi Raj Muthyam</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
     <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
-
     <!-- // Intro -->
-    <header id ="about">
-      <a href = "https://drive.google.com/open?id=0B_6sh4WzZi3GVFZoUzFTbmY5ZWc" target="_blank" class="resume-button">My Resume</a>
-      <nav class= "hor-nav">
-        <a href="#about">About</a>
-        <a href= "#experience">Experience</a>
-        <a href= "#education">Education</a>
-        <a href = "#skills">Technical Skills</a>
-        <a href= "#projects">Projects</a>
-        <a href = "#contact">Contact</a>
+
+    <header>
+
+      <nav class= " hor-nav navbar-default navbar-fixed-top ">
+        <div class = "container-fluid">
+          <div class = "navbar-header">
+            <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#mynavbar">
+               <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+
+            </button>
+            <a class = "navbar-brand" href = "#">Pruthvi Raj</a>
+          </div>
+          <div class = "collapse navbar-collapse" id = "mynavbar">
+          <ul class = "nav navbar-nav">
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#experience">Experience</a></li>
+            <li><a href = "#education">Education</a></li>
+            <li><a href = "#skills">Skills</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">contact</a></li>
+          </ul>
+        </div>
+        </div>
       </nav>
-        <div class = "content-wrap">
+
+        <div class = "content-wrap container bg">
+          <a href = "https://drive.google.com/open?id=1xhGRdfGJN0aXpdr1xQilt4Ui9HrUoL-U" target="_blank" class="resume-button btn btn-info" role = "button">My Resume</a>
+          <div class  ="row">
+            <div class = "col-sm-12">
         <h1>Pruthvi Raj Muthyam</h1>
         <h2>AWS Certified Developer Associate | CS Graduate Student</h2>
-        <h3>Actively seeking Software Developer/Full Stack Developer Internship opportunities for Spring/Summer 2018 </h3>
+        <h3>Actively seeking Software/Full Stack Developer Internship opportunities for Summer 2018 </h3>
+      </div>
+    </div>
 
-        <p>  Currently pursuing Master's in Computer Science at <a href = "https://uta.edu" target = "_blank" >The University of Texas at Arlington</a>, I did my Bachelor's in Computer Science and Engineering from <a href = "http://www.nitw.ac.in/" target = "_blank">National Institute of Technology, Warangal, India.</a>
-           I started off my career as a Web Developer Intern at Snaptics Business Solutions in Summer 2014 and after worked as
-            Assistant Manager at <a href = "https://www.coalindia.in/" target = "_blank">Coal India Limited </a> from August 2015 to December 2016.
-            <br><br>My key areas of interest are Cloud Computing, Full Stack Web Development, and DevOps. I am looking for employment with a company that offers me a consistently positive atmosphere to learn and keep up with the cutting edge of technologies, implement them for the betterment of the business, with opportunities for a long-term career growth.</p>
-
-        </div>
-
+      </div>
     </header>
-
     <main>
+      <section id = "about">
+       <div class = " content-wrap">
+           <h2>About</h2>
+         <div class = "row">
+           <div class = "col-sm-12">
+           <p>  Currently pursuing Master's in Computer Science at <a href = "https://uta.edu" target = "_blank" >The University of Texas at Arlington</a>, I did my Bachelor's in Computer Science and Engineering from <a href = "http://www.nitw.ac.in/" target = "_blank">National Institute of Technology, Warangal, India.</a>
+              I started off my career as a Web Developer Intern at Snaptics Business Solutions in Summer 2014 and after worked as
+               Assistant Manager at <a href = "https://www.coalindia.in/" target = "_blank">Coal India Limited </a> from August 2015 to December 2016.
+               <br><br><p class = "lead">My key areas of interest are Cloud Computing, Full Stack Web Development, and DevOps.</p> <p>I am looking for employment with a
+                 company that offers me a consistently positive atmosphere to learn and keep up with the cutting edge of technologies, implement them for the betterment of the business, with opportunities for a long-term career growth.</p>
+          </div>
+         </div>
+       </div>
+      </section>
         <!-- // Work Experience -->
         <section id = "experience" class = "workexp">
-            <div class = "content-wrap">
+            <div class = "content-wrap container">
             <h2>Work Experience</h2>
 
             <!-- Job Details> -->
-          <div class = "col-narrow">
-            <h3>Assistant Manager </h3>
+            <div class = "row">
+          <div class = " col-md-4">
+            <h3 style="font-weight:bold">Assistant Manager </h3>
             <a href = "https://www.coalindia.in/" target = "_blank">COAL INDIA LIMITED</a>
             <p>August 2015 - December 2016</p>
                 </div>
-                <div class = "col-wide job-description">
+                <div class = " col-md-8 ">
             <p>
               • Administered range of activities including Payroll, Oracle 11g DB Administration, hardware & software installations, upgrades and appropriate procurement.
           </p><p>• Responsible for network configuration and management especially intranet for Coalnet (ERP) access, user account management for Coalnet access and Email provision.
@@ -61,16 +97,18 @@
             </ul>
             <!-- end of Job Details block. -->
                 </div>
-
-                <div class = "col-narrow intern">
-                  <h3>Web Developer Intern </h3>
+              </div>
+               <div class = "row">
+                <div class = "col-md-4">
+                  <h3 style="font-weight:bold">Web Developer Intern </h3>
                   <a href = "http://snaptics.in" target = "_blank">SNAPTICS BUSINESS SOLUTIONS</a>
                   <p>May 2014 - July 2014</p>
                       </div>
-                      <div class = "col-wide job-description">
+                      <div class = "col-md-8">
                   <p>• Developed a web application – cloud based educational management system.</p>
               <p>• Tech stack includes Hibernate, MySQL, MVC, Servlets, HTML, CSS, JavaScript, JSON, JSP, AJAX, jQuery</p>
                       </div>
+                    </div>
         </div>
         </section>
 
@@ -78,9 +116,10 @@
         <!-- // Education -->
         <section id= "education" class = "edu">
             <div class = "content-wrap">
-            <h2>Education</h2>
-            <div class = "education">
 
+            <h2>Education</h2>
+
+            <div class = "education">
             <!-- School details -->
             <img class = "profile-img" src="utalogo.jpg" alt="The University of Texas at Arlington" height = "100" width = "100" >
             <h3>The University of Texas at Arlington - May 2018</h3>
@@ -95,76 +134,87 @@
         </section>
 
         <section id = "skills"class = "technical_skills">
-            <div class = "content-wrap">
-            <h2>Technical Skills</h2>
-<div class = "langs">
-            <div class = "ts">
-            <h3>Languages </h3>
-            <p>Java</p>
-               </div>
-               <div class = "ts">
-                   <h3>Web Technologies </h3>
+            <div class = " container content-wrap">
+              <h2>Technical Skills</h2>
 
-                       <p>HTML5</p>
-                       <p>CSS3</p>
-                       <p>Javascript</p>
-                       <p>JSON</p>
-                        <p>AJAX</p>
-                        <p>jQuery</p>
-
-               </div>
-               <div class = "ts databases">
-                   <h3>Databases</h3>
-                       <p>MySQL</p>
-                       <p>Oracle 11g</p>
-
-
-               </div>
-</div>
-<div class = "tools">
-<h3>Tools and Technologies </h3>
-<p> <span class = "ptitle">Cloud Technologies - </span>Amazon Web Services EC2, S3, VPC, Route 53, SNS and IAM.</p>
-<p> <span class = "ptitle">Repositories/Tracking - </span>Github</p>
-<p> <span class = "ptitle">Methodologies - </span>Agile, SCRUM</p>
-<p> <span class = "ptitle">IDE - </span>Eclipse, Android Studio</p>
-<p> <span class = "ptitle">Platforms - </span>Windows, Android</p>
-</div>
-
+              <div class = "row">
+                <div class = "col-sm-12">
+                  <p> <span class = "ptitle">Languages - </span>Java</p>
+                </div>
+              </div>
+              <div class = "row">
+                <div class = "col-sm-12">
+                  <p> <span class = "ptitle">Web Technologies - </span>HTML5, CSS3, PHP, CodeIgniter, JavaScript, XAMPP,
+                  AJAX, jQuery</p>
+                </div>
+              </div>
+              <div class = "row">
+                <div class = "col-sm-12">
+                  <p> <span class = "ptitle">Databases - </span>MySQL, Oracle 11g</p>
+                  <p> <span class = "ptitle">Cloud Technologies - </span>Amazon Web Services EC2, S3, VPC, Route 53, SNS and IAM.</p>
+                  <p> <span class = "ptitle">Repositories/Tracking - </span>Github</p>
+                  <p> <span class = "ptitle">Methodologies - </span>Agile, SCRUM</p>
+                  <p> <span class = "ptitle">IDE - </span>Eclipse, Android Studio</p>
+                  <p> <span class = "ptitle">Platforms - </span>Windows, Android</p>
+                </div>
+              </div>
             </div>
         </section>
         <section id = "projects" class = "projects">
-            <div class = "content-wrap">
+            <div class = "content-wrap container">
             <h2>Projects</h2>
-            <h3>Personal Health Management System <a href = "https://github.com/abhinav-k/PHMS" target = '_blank'>
+            <div class = "row">
+              <div class = "col-sm-12">
+            <h3 style="font-weight:bold">Personal Health Management System <a href = "https://github.com/abhinav-k/PHMS" target = '_blank'>
               <i class="fa fa-github" aria-hidden="true"></i></a></h3>
             <ul><li><p>Developed an Android application enabling users to log and track information related to their personal health.</p>
 </li>
            <li><p>Developed following Agile development methodology – Scrum. </p></li>
          </ul>
-               <h3>B+ Tree Implementation <a href = "https://github.com/pruthvigh/B-Tree-Implementation" target = '_blank'>
+       </div>
+     </div>
+     <div class = "row">
+       <div class = "col-sm-12">
+        <h3 style="font-weight:bold">Map/Reduce Implementation <a href = "https://github.com/pruthvigh/Map-Reduce-Implementation" target = '_blank'>
+          <i class="fa fa-github" aria-hidden="true"></i></a></h3>
+        <ul><li><p>Developed a program to compute many demographic statistics using Hadoop Map/Reduce framework on the US census dataset.   </p>
+        </li>
+          <li><p>Analyzed performance of the single node cluster on Windows by varying the no of input splits.</p></li>
+         </ul>
+       </div>
+     </div>
+     <div class = "row">
+       <div class = "col-sm-12">
+         <h3 style="font-weight:bold">Implementation of a Transaction Manager<a href = "https://github.com/pruthvigh/Implementation-of-a-Tx-Manager" target = '_blank'>
+           <i class="fa fa-github" aria-hidden="true"></i></a></h3>
+         <ul><li><p>Implemented a transaction manager that manages concurrency control using strict two-phase locking (S2PL) protocol with shared locks for read and exclusive locks for write in C.</p>
+     </li>        </ul>
+     </div>
+     </div>
+     <div class = "row">
+       <div class = "col-sm-12">
+               <h3 style="font-weight:bold">B+ Tree Implementation <a href = "https://github.com/pruthvigh/B-Tree-Implementation" target = '_blank'>
                  <i class="fa fa-github" aria-hidden="true"></i></a></h3>
                <ul><li><p>Implemented full insert and naive delete parts of the B+ tree index file organization for the database management system MINIBASE in Java.</p>
    </li>        </ul>
-   <h3>An Instant Messaging System <a href = "https://github.com/pruthvigh/An-Instant-Messaging-System" target = '_blank'>
-     <i class="fa fa-github" aria-hidden="true"></i></a></h3>
-   <ul><li><p>Developed a Java chat application for communication between clients over socket connections with the server using HTTP formatted messages. </p>
-   </li>
-     <li><p>Tech stack includes Java, Sockets, Multithreading and Eclipse.</p></li>
-    </ul>
-    <h3>A Weather Client using XML <a href = "https://github.com/pruthvigh/A-Weather-Client-Using-XML?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BvfrMEzXPTDy47dRAhDkM3w%3D%3D" target = '_blank'>
+ </div>
+</div>
+<div class = "row">
+  <div class = "col-sm-12">
+    <h3 style="font-weight:bold">A Weather Client using XML <a href = "https://github.com/pruthvigh/A-Weather-Client-Using-XML?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BvfrMEzXPTDy47dRAhDkM3w%3D%3D" target = '_blank'>
       <i class="fa fa-github" aria-hidden="true"></i></a></h3>
     <ul><li><p>Developed a Java application to display weather information by sending requests over sockets to the National Weather Service using SOAP and HTTP.</p>
 </li>        </ul>
+</div>
+</div>
 			</div>
         </section>
-
     </main>
-
     <!-- // Footer & contact info -->
     <footer id = "contact">
-        <div class = "content-wrap">
+        <div class = "content-wrap container">
         <h2>Let's Keep in Touch!</h2>
-        <p style="font-size:20px"><i class="fa fa-envelope"></i>pruthvirajmuthyam@gmail.com</p>
+        <p style="font-size:20px"><i class="fa fa-envelope"></i>pruthviraaz41@gmail.com</p>
         <p class = "phone-number"> &#9742; 682-407-5122</p>
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class = "contact-info">
@@ -172,11 +222,12 @@
             <a href = "https://www.facebook.com/rajpruthvim" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.linkedin.com/in/pruthvirajm/" target="_blank" class = "fa fa-linkedin"></a>
             <a href="https://github.com/pruthvigh" target="_blank" class="icon-link round github fill"><i class="fa fa-github"></i></a>
-            <a class="icon-link round google-plus fill"><i class="fa fa-google-plus"></i></a>
+            <a href = "https://twitter.com/beingpruthvi" target="_blank"class="icon-link round twitter fill"><i class="fa fa-twitter"></i></a>
         </div>
 
         <p> &copy 2017 Pruthvi Raj</p>
         </div>
     </footer>
+
 </body>
 </html>
